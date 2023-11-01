@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+nav{
+    gap: 1rem;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    gap: 12vw;
+    background-color: rgb(179, 121, 179);
+    text-align: center;
+    box-shadow: 0px 8px 15px -1px rgb(180, 164, 180);
+    z-index: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 1vw;
+    transition: all 0.5s;
+}
+
+nav a:hover{
+    color: white;
+    padding: 1vw;
+    background-color: rgb(172, 76, 152);
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 60vh;
+    margin-bottom: 2vh;
+    background-image: url(../img/blueprint\ muis.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: fit-content;
+    color: rgb(109, 102, 102);
+}
+
+header p{
+    width: 50%;
+    margin: auto;
+}
+
+.header-container{
+    margin-top: 5vh;
+    padding-bottom: 4vh;
+    padding-top: 4vh;
+}
+
+header h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+main{
+    box-shadow: -2px -15px 56px -3px ;
+    -webkit-box-shadow: -2px -15px 56px -3px rgba(196, 126, 172, 0.508);
+    -moz-box-shadow: -2px -15px 56px -3px;
+    background-color: rgba(196, 126, 171, 0.367);
+}
+
+main p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.pricetag{
+    margin-bottom: 3vh;
+    display: flex;
+    gap: 17vw;
+    color: white;
+}
+
+.articlebutton{
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: rgb(179, 121, 179);
+    transition: all 0.5s;
+}
+
+.articlebutton:hover{
+    background-color: rgb(172, 76, 152);
+    border:solid 1px rgb(0, 0, 0);
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+main h2{
+text-align: center;
+}
+
+main h3{
+    margin-bottom: 0px;
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    gap: 8vw;
+    padding-bottom: 6vh;
+}
+
+.buy-box{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-radius: 10px;
+    padding-bottom: 13vh;
+    width: 20%;
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 6.5vh;
+    background-color: rgb(238, 199, 228);
+    background-image: url(../img/Pantoffelmuis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.buy-box h2{
+    color: white;
+}
+
+.buy-box p{
+    margin-left: 4vw;
+    color: white;
+}
+
+.buy-box a{
+    width: 50%;
+    color: black;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(179, 121, 179);
+    transition: all 0.5s;
+}
+
+
+.buy-box a:hover{
+    color: white;
+   background-color: rgb(172, 76, 152); 
+}
+
+.buy-box h3{
+    margin-left: 4vw;
+    color: white;
+}
+
+.our-team{
+    width: 70%;
+    margin: auto;
+    border: solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1.5vh;
+    margin-top: 5vh;
+    background-color: rgb(238, 199, 228);
+}
+
+.form-container {
+    background-color: rgb(240, 173, 217, 0.367);
+    border-top: solid black;
+    color: rgb(0, 0, 0);
+    margin-top: 7vh;
+}
+
+.form-container h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
+    color: #000000;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+.form p {
+    margin-bottom: 5px;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.firstName {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstName input {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #C0C0C0;
+}
+
+.lastName {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.lastName input {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #C0C0C0;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.email input {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #C0C0C0;
+}
+
+.cityAndBirthdate {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    padding-top: 10px;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.adress input {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #C0C0C0;
+}
+
+.dateOfBirth {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.dateOfBirth input {
+    padding: 9.5px;
+    border-radius: 10px;
+    border: solid #C0C0C0;
+}
+
+.onderwerp {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.onderwerp select {
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #C0C0C0;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.message textarea {
+    border-radius: 10px;
+    border: solid #C0C0C0;
+}
+
+.radioBox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 1vh;
+    padding-bottom: 10px;
+}
+
+.terms input {
+    padding: 10px;
+}
+
+.button {
+    padding-bottom: 10vh;
+    padding-top: 2vh;
+}
+
+button {
+    width: 40vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    border: solid black;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+
+
+footer{
+    background-color: rgb(190, 168, 185);
+    padding-top: 1.5vh;
+}
+footer a {
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    border: solid transparent;
+}
+
+.socialmediaLogos {
+    gap: 5px;
+    margin-left: 4vw;
+    padding-bottom: 0vh;
+    padding-top: 1.5vh;
+    justify-content: flex-start;
+}
+
+.socialmediaLogos a {
+    flex: 1;
+    gap: 10px;
+}
+
+.socialmediaLogos img {
+    height: auto;
+    max-width: 3%;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 35px 20px;
+
+}
+
+#related {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+    color: #090909;
+}
+
+
+.relateditems {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 80px;
+    perspective: 200px;
+}
+
+article {
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px -10px 10px #87788C;
+    transition: all 1.25s ease-in-out;
+    background-color: rgb(238, 199, 228);
+}
+article:hover{
+    color: white;
+}
+
+article:hover {
+    background-color: #855E85;
+    box-shadow: 20px 0px 20px #6F6373;
+    transform: scale(0.9) rotateY(3deg);
+}
+
+article a {
+    background: rgb(179, 121, 179);;
+    margin: 10px 10px;
+    padding: 10px 30px;
+    border-radius: 16px;
+    border: 1px solid black;
+}
+
